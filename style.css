@@ -1,0 +1,652 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  width: 1440px;
+  margin-left: 280px;
+  position: relative;
+}
+
+body .container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 90px;
+  position: relative;
+}
+
+body .container .navbar .brand {
+  position: absolute;
+  margin: 30px 0px 29px 152px;
+}
+
+body .container .navbar .navlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 620px;
+}
+
+body .container .navbar .navlink a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+body .container .navbar .navlink button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  width: 155px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  margin-left: 16px;
+}
+
+body .container .navbar .navlink button:hover {
+  letter-spacing: 1.5px;
+}
+
+body .container .header {
+  position: relative;
+}
+
+body .container .header h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #C0C0C0;
+  font-size: 14px;
+  text-align: center;
+  bottom: 230px;
+  left: calc(50% - 263px/2 + 0.5px);
+}
+
+body .container .header h1 {
+  bottom: 169px;
+  left: calc(50% - 463px/2 + 0.5px);
+  font-size: 54px;
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+body .container .header p {
+  position: absolute;
+  color: #C0C0C0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  width: 550px;
+  left: calc(50% - 580px/2);
+  bottom: 71px;
+}
+
+body .container .header .data {
+  position: absolute;
+  color: #FFFFFF;
+  right: 40px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+body .container .header .data i {
+  margin-left: 9px;
+}
+
+body .container .main h2 {
+  color: #FFFFFF;
+  margin-top: 113px;
+  margin-left: 596px;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  width: 248px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body .container .main h3 {
+  color: #C0C0C0;
+  margin: 15px 0px 42px 514px;
+  text-align: center;
+  width: 413px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body .container .main .pictures1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 136px;
+}
+
+body .container .main .pictures1 .relative {
+  position: relative;
+  margin-left: 16px;
+}
+
+body .container .main .pictures1 .relative h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #FFFFFF;
+  width: 222px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  right: 56.98%;
+  bottom: 139px;
+}
+
+body .container .main .pictures1 .relative p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  color: #C0C0C0;
+  font-size: 14px;
+  width: 501px;
+  height: 80px;
+  right: 7.81%;
+  bottom: 69px;
+}
+
+body .container .main .pictures1 .relative button {
+  background: #FFFFFF;
+  width: 143px;
+  height: 42px;
+  border-radius: 14px;
+  position: absolute;
+  right: 403px;
+  bottom: 30px;
+}
+
+body .container .main .pictures1 .relative button i {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-left: -30px;
+}
+
+body .container .main .pictures2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 136px;
+  margin-top: 16px;
+}
+
+body .container .main .pictures2 .relative {
+  position: relative;
+  margin-left: 16px;
+}
+
+body .container .main .pictures2 .relative h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #FFFFFF;
+  width: 222px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  right: 56.98%;
+  bottom: 139px;
+}
+
+body .container .main .pictures2 .relative p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  color: #C0C0C0;
+  font-size: 14px;
+  width: 501px;
+  height: 80px;
+  right: 7.81%;
+  bottom: 69px;
+}
+
+body .container .main .pictures2 .relative button {
+  background: #FFFFFF;
+  width: 143px;
+  height: 42px;
+  border-radius: 14px;
+  position: absolute;
+  right: 403px;
+  bottom: 30px;
+}
+
+body .container .main .pictures2 .relative button i {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-left: -30px;
+}
+
+body .container .main2 {
+  position: relative;
+  margin-top: 100px;
+}
+
+body .container .main2 h6 {
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  font-style: normal;
+  right: 154px;
+  top: 260px;
+}
+
+body .container .main2 p {
+  position: absolute;
+  height: 60px;
+  width: 273px;
+  right: 78px;
+  top: 300px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+body .container .main2 .data {
+  position: absolute;
+  color: #FFFFFF;
+  right: 40px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+body .container .main2 .data i {
+  margin-left: 9px;
+}
+
+body .container .main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+body .container .main3 .data {
+  position: absolute;
+  color: #FFFFFF;
+  right: 40px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+body .container .main3 .data i {
+  margin-left: 9px;
+}
+
+body .container .main3 h2 {
+  color: #C0C0C0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 173px 475px 0px 100px;
+}
+
+body .container .main3 h1 {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 6px 300px 0px 100px;
+}
+
+body .container .main3 p {
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 500px;
+  margin: 14px 106px 0px 100px;
+}
+
+body .container .main3 button {
+  background: #FFFFFF;
+  width: 143px;
+  height: 42px;
+  border-radius: 14px;
+  margin: 20px 0px 153px 100px;
+}
+
+body .container .main3 button i {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-left: -30px;
+}
+
+body .container .main4 {
+  position: relative;
+}
+
+body .container .main4 h6 {
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  font-style: normal;
+  right: 154px;
+  top: 260px;
+}
+
+body .container .main4 p {
+  position: absolute;
+  height: 60px;
+  width: 273px;
+  right: 78px;
+  top: 300px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+body .container .main4 .data {
+  position: absolute;
+  color: #FFFFFF;
+  right: 40px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+body .container .main4 .data i {
+  margin-left: 9px;
+}
+
+body .container .brands h1 {
+  color: #FFFFFF;
+  text-align: center;
+  width: 229px;
+  height: 42px;
+  font-size: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  margin: 113px 605px 0px 606px;
+}
+
+body .container .brands h2 {
+  color: #C0C0C0;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 499px 0px 500px;
+  width: 506px;
+}
+
+body .container .brands div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 140px;
+  margin-top: 82px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1076px;
+  margin-left: 182px;
+}
+
+body .container .info h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  width: 571px;
+  margin: 113px 434px 0px 435px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body .container .info h3 {
+  color: #C0C0C0;
+  text-align: center;
+  font-size: 24px;
+  width: 224px;
+  margin: 15px 608px 0px 608px;
+}
+
+body .container .info button {
+  background: #FFFFFF;
+  width: 143px;
+  height: 42px;
+  border-radius: 14px;
+  margin: 22px 643px 0px 643px;
+}
+
+body .container .info button i {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-left: -30px;
+}
+
+body .container .footer .info-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+body .container .footer .info-page .aperture {
+  width: 460px;
+}
+
+body .container .footer .info-page .aperture img {
+  margin-left: 136px;
+}
+
+body .container .footer .info-page .aperture p {
+  color: #FFFFFF;
+  margin: 20px 0px 0px 136px;
+  font-size: 13px;
+  width: 440px;
+}
+
+body .container .footer .info-page .business-areas h4 {
+  color: #C0C0C0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 270px;
+}
+
+body .container .footer .info-page .business-areas ul li {
+  color: #FFFFFF;
+  list-style: none;
+  margin-left: 230px;
+  margin-top: 10px;
+}
+
+body .container .footer .info-page .pages h4 {
+  color: #C0C0C0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 94px;
+}
+
+body .container .footer .info-page .pages ul li {
+  color: #FFFFFF;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+body .container .footer hr {
+  width: 1168px;
+  color: #FFFFFF;
+  margin-left: 136px;
+}
+
+body .container .footer .send-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .footer .send-email div h2 {
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 36px 430px 0px 136px;
+}
+
+body .container .footer .send-email div h5 {
+  color: #C0C0C0;
+  font-size: 13px;
+  margin: 20px 0px 36px 136px;
+}
+
+body .container .footer .send-email input {
+  width: 358px;
+  height: 52px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  margin: 40px 0px 40px 0px;
+  font-size: 23px;
+}
+
+body .container .footer .send-email button {
+  width: 63px;
+  height: 30px;
+  border-radius: 11px;
+  background: #FFFFFF;
+  margin-top: 50px;
+}
+
+body .container .footer .contacte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .footer .contacte h4 {
+  color: #C0C0C0;
+  font-size: 14px;
+  margin: 56px 536px 104px 136px;
+  letter-spacing: 1px;
+}
+
+body .container .footer .contacte a i {
+  color: #FFFFFF;
+  font-size: 26px;
+  margin-top: 58.25px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
